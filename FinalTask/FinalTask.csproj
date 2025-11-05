@@ -8,11 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Core\Services\" />
-    <Folder Include="Games\Blackjack\" />
-    <Folder Include="Games\DiceGame\" />
     <Folder Include="Utils\" />
-    <Folder Include="Casino\" />
   </ItemGroup>
 
 </Project>
