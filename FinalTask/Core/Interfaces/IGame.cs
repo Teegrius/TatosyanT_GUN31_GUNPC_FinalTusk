@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FinalTask.Core.Interfaces
+﻿namespace FinalTask.Core.Interfaces
 {
-    internal class IGame
+    public interface IGame
     {
+        void StartGame();
     }
 }

@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FinalTask.Core.Models
+﻿namespace FinalTask.Core.Models
 {
-    internal class CardRank
+    public enum CardRank
     {
+        Six = 6,
+        Seven,
+        Eight,
+        Nine,
+        Ten,
+        Jack = 2,
+        Queen = 3,
+        King = 4,
+        Ace = 11
     }
 }

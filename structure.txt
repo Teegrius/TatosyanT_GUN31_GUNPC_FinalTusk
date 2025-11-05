@@ -1,0 +1,61 @@
+Структура папок тома Windows
+Серийный номер тома: 10B8-556A
+C:.
+|   .gitattributes
+|   .gitignore
+|   FinalTask.sln
+|   structure.txt
+|   
+\---FinalTask
+    |   FinalTask.csproj
+    |   Program.cs
+    |   
+    +---bin
+    |   \---Debug
+    |       \---net8.0
+    +---Casino
+    |       Casino.cs
+    |       CasinoGameBase.cs
+    |       
+    +---Core
+    |   +---Interfaces
+    |   |       IGame.cs
+    |   |       ISaveLoadService.cs
+    |   |       
+    |   +---Models
+    |   |       Card.cs
+    |   |       CardRank.cs
+    |   |       CardSuit.cs
+    |   |       Dice.cs
+    |   |       PlayerProfile.cs
+    |   |       WrongDiceNumberException.cs
+    |   |       
+    |   \---Services
+    |           FileSystemSaveLoadService.cs
+    |           
+    +---Games
+    |   +---Blackjack
+    |   |       BlackjackGame.cs
+    |   |       
+    |   \---DiceGame
+    |           DiceGame.cs
+    |           
+    +---obj
+    |   |   FinalTask.csproj.nuget.dgspec.json
+    |   |   FinalTask.csproj.nuget.g.props
+    |   |   FinalTask.csproj.nuget.g.targets
+    |   |   project.assets.json
+    |   |   project.nuget.cache
+    |   |   
+    |   \---Debug
+    |       \---net8.0
+    |           |   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+    |           |   FinalTask.AssemblyInfo.cs
+    |           |   FinalTask.AssemblyInfoInputs.cache
+    |           |   FinalTask.assets.cache
+    |           |   FinalTask.GeneratedMSBuildEditorConfig.editorconfig
+    |           |   FinalTask.GlobalUsings.g.cs
+    |           |   
+    |           +---ref
+    |           \---refint
+    \---Utils

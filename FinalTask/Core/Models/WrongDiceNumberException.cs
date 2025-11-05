@@ -1,12 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FinalTask.Core.Models
 {
-    internal class WrongDiceNumberException
+    public class WrongDiceNumberException : Exception
     {
+        public WrongDiceNumberException(int number, int min, int max)
+            : base($"Wrong dice number {number}. Must be between {min} and {max}.")
+        {
+        }
     }
 }
